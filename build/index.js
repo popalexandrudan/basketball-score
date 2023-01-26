@@ -41,6 +41,7 @@ const resetScore = () => {
   homeScore.innerText = homeCurrentScore;
   guestCurrentScore = 0;
   guestScore.innerText = guestCurrentScore;
+  leadingTeamH.innerHTML = "Waiting for match to start";
 };
 
 let leadingTeam = () => {
